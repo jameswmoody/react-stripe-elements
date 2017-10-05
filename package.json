@@ -18,7 +18,7 @@
     "prettier": "prettier --single-quote --trailing-comma es5 --bracket-spacing false --parser flow src/**/*.js demo/**/*.js --write",
     "prettier-list-different": "prettier --single-quote --trailing-comma es5 --bracket-spacing false --parser flow src/**/*.js demo/**/*.js --list-different",
     "prepublish": "yarn run clean && yarn run build",
-    "demo": "webpack-dev-server --content-base dist"
+    "demo": "webpack-dev-server --content-base dist --allowed-hosts cweiss.ngrok.io"
   },
   "keywords": [],
   "author": "Stripe (https://www.stripe.com)",
